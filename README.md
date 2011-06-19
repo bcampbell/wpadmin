@@ -60,6 +60,8 @@ Users: list, add, delete and update user accounts inc. roles
 
 Options: add, delete and update any key value pair in wp_options
 
+Plugins: list
+
 To Do
 ------
 
@@ -67,7 +69,13 @@ Options: list
 
 Posts & Pages: add, remove, publish and draft
 
-Plugins: list, activate and deactivate plugins
+Plugins:
+ activate and deactivate plugins
+ list: add status column (active/inactive)
+ list: show available upgrades
+ perform upgrades
+ download pristine version and diff against installed (helpful for detecting
+   changed/hacked files)
 
 WP Super cache: bust cache, update settings inc. cache expiry
 

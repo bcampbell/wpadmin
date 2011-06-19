@@ -244,6 +244,9 @@ Option functions:
     
     wpadmin option update --default_comment_status=closed
 
+Plugin functions:
+
+    wp plugin list
 
 EOF;
             
